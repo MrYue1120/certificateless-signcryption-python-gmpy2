@@ -144,7 +144,7 @@ def unsigncrypt(Alice, Bob, params, Signcryption_text):
 	if left_value == right_value :
 		return m_un
 
-
+‘’‘
 params = system_params(1024)
 Alice = user_key("alice", params)
 Bob = user_key("bob", params)
@@ -152,4 +152,4 @@ m = mpz(2**16)
 Signcryption_text = signcrypt(Alice, Bob, params, m)
 m_un = unsigncrypt(Alice, Bob, params, Signcryption_text)
 print(m_un)
-
+‘’‘
