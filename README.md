@@ -1,2 +1,3 @@
 # certificateless-signcryption-python-gmpy2
 testing ......
+目前此项目正在测试完善中，本人能力有限，刚刚接触python3，很多用法正在熟悉中，参考了github上的paillier-gmpy2项目，本项目也使用gmpy2编写，目前实现了我本人的一个无证书签密方案以及周彦伟与2016年发表的《不使用双线性映射的无证书签密方案的安全性分析及改进》论文中的方案（PS：基本实现）。
